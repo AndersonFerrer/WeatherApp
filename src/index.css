@@ -1,0 +1,21 @@
+body {
+  /* margin: 0;
+  padding: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh; */
+  /* background-color: #00b4d8; */
+ /*  background-color: #FFDEE9;
+background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%); */
+background-color: white;
+min-height: 100vh;
+width: 100%;
+
+  
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+ 
