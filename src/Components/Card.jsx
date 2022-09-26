@@ -7,7 +7,7 @@ export default function Card({name, temp, onClose, img, id}) {
         <div className='h-[200px] flex items-center flex-wrap w-[350px] bg-gradient-to-r from-blue-700 via-blue-500 to-blue-400 rounded-2xl p-0 text-3xl m-5 gap-[2px] transition-all duration-300'>
           <div className='w-[175px] flex flex-col flex-wrap items-center justify-center gap-0'>
             <h1 className='text-2xl font-semibold text-white sm:text-3xl'>{name}</h1>
-            <img className='w-[100px] h-[100px]'src={"http://openweathermap.org/img/wn/"+img+"@2x.png"} alt="icono_clima" />
+            <img className='w-[100px] h-[100px]'src={"https://openweathermap.org/img/wn/"+img+"@2x.png"} alt="icono_clima" />
             <h1 className='text-3xl font-bold text-white sm:text-4xl'>{temp} C°</h1>
           </div>
 
