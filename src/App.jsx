@@ -25,7 +25,7 @@ function App() {
     }
 
 
-  fetch(`http://api.openweathermap.org/data/2.5/weather?q=${ciudad}&lang=es&appid=${apiKey}&units=metric`)
+  fetch(`https://api.openweathermap.org/data/2.5/weather?q=${ciudad}&lang=es&appid=${apiKey}&units=metric`)
     .then(r => r.json())
     .then((recurso) => {
       if(recurso.main != undefined) {
@@ -49,7 +49,7 @@ function App() {
       }
     });
 
-    fetch(`http://api.openweathermap.org/data/2.5/forecast?q=${ciudad}&appid=${apiKey}&units=metric`)
+    fetch(`https://api.openweathermap.org/data/2.5/forecast?q=${ciudad}&appid=${apiKey}&units=metric`)
     .then(r => r.json())
     .then((res) => {
       if(res.list != undefined) {
